@@ -3,9 +3,6 @@
         "baseUrl": ".",
         "composite": true,
         "declaration": true,
-        "declarationMap": true,
-        "paths": {
-            "@common": ["common"]
-        }
+        "declarationMap": true
     }
 }
