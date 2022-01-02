@@ -2,7 +2,7 @@
     "name": "ts-project-refs-are-a-nightmare",
     "private": true,
     "scripts": {
-        "test": "ts-node packages/front/index.ts"
+        "test": "ts-node -P packages/front/tsconfig.json -r tsconfig-paths/register ./packages/front/index.ts"
     },
     "repository": {
         "type": "git",
@@ -16,6 +16,7 @@
     "homepage": "https://github.com/electrovir/ts-project-refs-are-a-nightmare#readme",
     "devDependencies": {
         "ts-node": "^10.4.0",
+        "tsconfig-paths": "^3.12.0",
         "typescript": "^4.5.4"
     }
 }

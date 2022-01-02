@@ -1,11 +1,15 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "composite": true,
-        "declaration": true,
-        "declarationMap": true,
+        "module": "ESNext",
         "paths": {
             "@common/*": ["./packages/common/*"]
+        }
+    },
+    "ts-node": {
+        // these options are overrides used only by ts-node
+        "compilerOptions": {
+            "module": "commonjs"
         }
     }
 }
