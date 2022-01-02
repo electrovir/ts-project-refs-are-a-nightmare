@@ -1,4 +1,4 @@
-import {doCommonThing} from 'common';
+import {doCommonThing} from '@common';
 
 function main() {
     doCommonThing();

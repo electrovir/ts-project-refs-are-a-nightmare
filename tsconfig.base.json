@@ -3,6 +3,9 @@
         "baseUrl": ".",
         "composite": true,
         "declaration": true,
-        "declarationMap": true
+        "declarationMap": true,
+        "paths": {
+            "common": ["./packages/common"]
+        }
     }
 }
