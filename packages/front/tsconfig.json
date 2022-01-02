@@ -1,10 +1,7 @@
 {
     "extends": "../../tsconfig.base.json",
     "compilerOptions": {
-        "rootDir": ".",
-        "paths": {
-            "@common": ["../common"]
-        }
+        "rootDir": "."
     },
     "references": [{"path": "../common"}]
 }
