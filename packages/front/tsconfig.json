@@ -1,3 +1,10 @@
 {
-    "extends": "../../tsconfig.base.json"
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "exactOptionalPropertyTypes": true,
+    "strictNullChecks": true
+  },
+  "references": [{"path": "../common"}],
+  "extends": "../../configs/tsconfig.base.json"
 }

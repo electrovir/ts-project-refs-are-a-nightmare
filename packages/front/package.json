@@ -1,0 +1,10 @@
+{
+    "name": "@electrovir/front",
+    "scripts": {
+        "test": "tsx src/index.ts",
+        "test:types": "tsc -b"
+    },
+    "dependencies": {
+        "@electrovir/common": "*"
+    }
+}
